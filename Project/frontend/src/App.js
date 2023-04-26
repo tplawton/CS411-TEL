@@ -1,7 +1,7 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 
-import Home from './pages/Home'
+import OAuth from './pages/OAuth'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route
             path='/'
-            element={<Home/>}
+            element={<OAuth/>}
           />
         </Routes>
       </div>
